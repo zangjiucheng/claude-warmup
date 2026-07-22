@@ -1,8 +1,7 @@
 name: Claude Code Warmup
 
 on:
-  schedule:
-    - cron: "0 8 * * 1-5"
+  # Scheduled warmup disabled — run manually via workflow_dispatch if needed.
   workflow_dispatch: {}
 
 concurrency:
